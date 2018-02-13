@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tailwind Login</title>
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans pt-8">
+
+	<div class="container mx-auto mt-4 ">
+		
+		<div class="relative mx-auto mt-8 max-w-md w-full flex items-center lg:flex rounded bg-red-dark lg:bg-red-dark shadow-lg">
+			
+			<div class="text-white font-semibold m-8">
+				<div class="flex items-center m-8">
+			      <div class="text-lg pb-8">
+			        <h1 class="text-white-lighter mb-4 font-medium">Welcome !</h1>
+			        <p class="text-white-lighter font-normal mb-8">Material Login Form #02</p>
+			      </div>
+			    </div>
+			    <div class="flex items-center ml-8 mt-8 pt-8 pin-bottom">
+			      <div class="text-lg pt-8">
+			        <p class="text-white-lighter font-normal mt-8">Designed By @ygohel18</p>
+			      </div>
+			    </div>
+			</div>
+
+			<div class="absolute pin-t pin-r max-w-xs -mt-8 mr-8">
+			  <form class="bg-white shadow-lg rounded px-8 pt-4 pb-8 mb-4 text-center">
+			  	<div class="items-center mt-4 mb-4">
+			  	  <div class="text-lg">
+			  	    <p class="text-red-dark font-normal">Log In</p>
+			  	  </div>
+			  	</div>
+			  	<div class="mx-auto bg-red-dark rounded-full mb-6 h-16 w-16 flex items-center justify-center shadow-lg"></div>
+			    <div class="mb-4">
+			      <input class="appearance-none border-b border-grey-light text-grey-darker w-full py-2 px-3 text-grey-darker" id="username" type="text" placeholder="Enter Username">
+			    </div>
+			    <div class="mb-6">
+			      <input class="appearance-none border-b border-grey-light text-grey-darker w-full py-2 px-3 text-grey-darker mb-3" id="password" type="password" placeholder="Enter Password">
+			    </div>
+			    <div class="items-center">
+			      <button class="bg-red-dark hover:bg-red-dark text-white font-normal py-2 px-4 mb-6 w-full shadow-lg" type="button">
+			        LOGIN
+			      </button>
+			      <button class="bg-white-light hover:bg-grey-lightest text-red-dark font-normal py-2 px-4 mb-6 w-full shadow-lg" type="button">
+			        Don't Have Account? Signup
+			      </button>
+			      <a class="inline-block align-baseline font-normal text-sm text-red-dark hover:text-red-darker no-underline" href="#">
+			        Forgot Password ?
+			      </a>
+			    </div>
+			  </form>
+			</div>
+		</div>
+
+	</div>
+	
+</body>
+</html>
